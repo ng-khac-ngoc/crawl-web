@@ -66,7 +66,7 @@ def crawl_website(start_page, last_page):
     for i in range(start_page, last_page + 1):
         if (i == 1426):
             continue
-        print('Page ' + str(i) + ' crawl được ')
+        print('Page ' + str(i) + ' has been crawled.')
         # Send a GET request to the URL
         response = requests.get(url + '?page=' + str(i))
 
